@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../images/agenda_de_contatos.jpg" alt="Foto de uma lista de contatos">
+            <h1>Lista de Contatos</h1>
+        </header>
+        <form id="form-contatcs">
+            <input type="text" id="Name" name="nome" required placeholder="Nome">
+            <input type="tel" id="Number" name="telefone" required placeholder="Telefone" >  
+            <span class="menssagem"></span>
+            <button type="submit">Salvar</button>
+        </form>
+        <table >
+            <thead class="contatcs-table_head">
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>---</span></td>
+                    <td><span>---</span></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td id="total_contatcts"><span>---</span></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/messages_pt_BR.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
